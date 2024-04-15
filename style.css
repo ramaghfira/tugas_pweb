@@ -43,14 +43,14 @@ b{
 .navItems li a{
     font-size: 25px;
     color:#f1ebe6;
-    letter-spacing: 3px;
+    letter-spacing: 10px;
     text-decoration: none;
 }
 .navItems li:hover a,
-.link a:hover{
+.links a:hover{
     color: rgb(86, 34, 16);
 }
-.link a{
+.links a{
     font-size: 30px;
     color: #f09b40;
     margin: 25px 10px;
@@ -122,7 +122,7 @@ b{
 }
 h1{
     display: block;
-    font-size: 7em;
+    font-size: 8em;
     font-weight: 900;
     color: #f1ebe6;
 }
@@ -159,16 +159,16 @@ button:hover{
     background-color: #eae4de;
 }
 .imgbox{
-    position: absolute;
-    width: 0%;
-    height: 100%;
+    position: relative ;
+    width: 50%;
+    height: 70%;
 }
 .imgbox img{
     position: relative;
-    height: 100%;
-    width: calc(100%-80px);
-    top: -70px;
-    right: 10px;
+    height: 110%;
+    width: calc(110%-80px);
+    top: -120px;
+    right: 20px;
     animation: animateUser 4s linear infinite;
 }
 @keyframes animateUser{
